@@ -3,7 +3,7 @@ DEMO PLAN
 - The following image is available on Docker hub: 
 	- docker run imega/jq
 	- How to make a JQ query with the image: 
-		- cat <file name> | docker run --rm -i imega/jq .
+		- cat 'file name' | docker run --rm -i imega/jq .
 
 ** USE JQ with Python try the following module
 - https://github.com/mwilliamson/jq.py
